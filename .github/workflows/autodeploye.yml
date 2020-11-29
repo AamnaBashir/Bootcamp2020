@@ -34,5 +34,3 @@ jobs:
         run: npm install --global surge
       - name: deploying using surge
         run: surge ./ slow-wilderness.surge.sh/ --token ${{secrets.token_id}}
-        
-        
